@@ -5,17 +5,23 @@ div.page-header{
     text-align:center;
     color:#576062;
     margin-bottom:0px;
-    padding-bottom:0px;
+    padding-bottom:75px;
 }
 .navbar{
     border-top-color:white;
 }
 .page-header h1{
     margin-bottom:0px;
-    
+    font-family: 'Oxygen', sans-serif;
+    font-size:48px;
+    letter-spacing: 15px;
 }
 .page-header h2{
     margin-top:0px;
+    font-family: 'Pacifico', cursive;
+    font-size:48px;
+    font-stretch:narrower;
+    
 }
 #theNav{
     background-color:white;
