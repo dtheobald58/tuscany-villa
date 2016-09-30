@@ -6,9 +6,11 @@ div.page-header{
     color:#576062;
     margin-bottom:0px;
     padding-bottom:75px;
+    border-bottom-color:none;
+    border-bottom-width:0px;
 }
 .navbar{
-    border-top-color:white;
+    border-top-color:none;
 }
 .page-header h1{
     margin-bottom:0px;
@@ -25,4 +27,39 @@ div.page-header{
 }
 #theNav{
     background-color:white;
+    padding-right:0px;
+}
+.navbar-brand{
+    font:12px calibri;
+    padding-top:10px;
+    background-color:#51AC9C;
+    color: white;
+}
+.navbar-brand:hover{
+    color:white;
+    background-color:#418b7d;
+}
+#brandLine1{
+    margin-bottom:0px;
+   
+}
+#navList{
+    padding-right:25%;
+    padding-left:35%;
+}
+#navListAnc{
+    color:#576062;
+    font:16px calibri;
+}
+#rightNav{
+    padding-right:0px;
+    background-color:#88BDD7;
+}
+#rightNavText{
+    color:white;
+    font-family:Calibri;
+}
+#rightNavText:hover{
+    color:white;
+    background-color:#66AACC;
 }
