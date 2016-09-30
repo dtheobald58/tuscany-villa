@@ -1,6 +1,22 @@
-﻿body {
+﻿body { background-color:#CACECB;
 }
 
-.page-header{
+div.page-header{
     text-align:center;
+    color:#576062;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+.navbar{
+    border-top-color:white;
+}
+.page-header h1{
+    margin-bottom:0px;
+    
+}
+.page-header h2{
+    margin-top:0px;
+}
+#theNav{
+    background-color:white;
 }
