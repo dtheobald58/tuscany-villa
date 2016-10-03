@@ -50,7 +50,8 @@ div.page-header{
     margin-bottom:0px;  
 }
 #navList{
-    padding-left:33%;
+    position:absolute;
+    left: 37%;
     border:0px;
     
 }
@@ -82,6 +83,7 @@ div.page-header{
 }
 .navbar-header{
     background-color:white;
+    margin-left:0px;
 }
 .icon-bar{
     background-color:#576062;
@@ -144,4 +146,75 @@ div a{
     background-image:url('../Images/42-348x348.jpg');
     background-size:cover;
     height:340px;
+}
+.row3col1{
+    background-image:url('../Images/Villa-Vanna-231-348x348.jpg');
+    background-size:cover;
+    height:340px;
+}
+.row3col2{
+    background-image:url('../Images/img-thing.jpg');
+    background-size:cover;
+    height:340px;
+}
+.learnMore{
+    margin-left:30%;
+}
+.row3col3{
+    background-image:url('../Images/3b-348x348.jpg');
+    background-size:cover;
+    height:340px;
+}
+.row3col4{
+    background-image:url('../Images/img-thing.jpg');
+    background-size:cover;
+    height:340px;
+}
+.row4col1{
+    background-image:url('../Images/img-thing.jpg');
+    background-size:cover;
+    height:340px;
+}
+.row4col2{
+    background-image:url('../Images/314-348x348.jpg');
+    background-size:cover;
+    height:340px;
+}
+.row4col3{
+    border-style:double;
+    border-width:3px;
+    border-color:white;
+    background-color:#51AC9C;
+    background-size:cover;
+    color:white;
+    height:340px;
+}
+.row4col3 h2{
+    text-align:center;
+    margin:0px;
+    font-family:Calibri;
+    font-style:italic;
+}
+.readReviews{
+    margin-left:25%;
+}
+.row4col4{
+    background-color:white;
+    background-image:url('../Images/img-thing.jpg');
+    background-size:cover;
+    height:340px;
+}
+.row4col4 p{
+    font-weight:bold;
+}
+.partners{
+    color:black;
+    position:absolute;
+    top:35%;
+    left:15%;
+}
+footer{
+    font-size:8px;
+    color:#576062;
+    text-align:center;
 }
