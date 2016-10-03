@@ -1,4 +1,6 @@
 ﻿body { background-color:#CACECB;
+       height:100%;
+       padding-right:20px;
 }
 
 div.page-header{
@@ -10,7 +12,9 @@ div.page-header{
     border-bottom-width:0px;
 }
 .navbar{
-    border-top-color:none;
+    border:0px;
+    margin-left:0px;
+    margin-bottom:0px;
 }
 .page-header h1{
     margin-bottom:0px;
@@ -32,20 +36,23 @@ div.page-header{
 .navbar-brand{
     font:12px calibri;
     padding-top:10px;
+    padding-left:10px;
     background-color:#51AC9C;
     color: white;
+    border-color:none;
+    margin-left:0px;
 }
 .navbar-brand:hover{
     color:white;
     background-color:#418b7d;
 }
 #brandLine1{
-    margin-bottom:0px;
-   
+    margin-bottom:0px;  
 }
 #navList{
-    padding-right:25%;
-    padding-left:35%;
+    padding-left:33%;
+    border:0px;
+    
 }
 #navListAnc{
     color:#576062;
@@ -58,8 +65,83 @@ div.page-header{
 #rightNavText{
     color:white;
     font-family:Calibri;
+    padding-right:25px;
+    margin-left:0px;
 }
 #rightNavText:hover{
     color:white;
     background-color:#66AACC;
+}
+.navbar-toggle{
+    margin-right:0px;
+    padding-right:25px;
+}
+#myNav{
+    width:100%;
+    padding:0px;
+}
+.navbar-header{
+    background-color:white;
+}
+.icon-bar{
+    background-color:#576062;
+}
+#mainSec{
+    padding:0px;
+    margin:0px;
+}
+.img-responsive{
+    margin:0px;
+    width:100%;
+}
+#allColumns{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    vertical-align:middle;
+}
+.row1col1{
+    background-image:url('../Images/tuscany-villas-sant-anna.jpg');
+    background-size:cover;
+    height:340px;
+    padding:0px;
+}
+.row1col2{
+    background-image:url('../Images/Versilia.jpg');
+    background-size:cover;
+    height:340px;
+}
+div h3{
+    text-align:center;
+    font-family:Calibri;
+    margin:0px;
+}
+div p{
+    text-align:center;
+    font-family:Calibri;
+    margin:0px;
+}
+div a{
+    margin-left:45%;
+}
+.row2col1{
+    background-image:url('../Images/img-thing.jpg');
+    background-size:cover;
+    color:#88BDD7;
+    height:340px;
+}
+.row2col2{
+    background-image:url('../Images/Villa-Rucellai-Toscani-2750-2-348x348.jpg');
+    background-size:cover;
+    height:340px;
+}
+.row2col3{
+    background-image:url('../Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size:cover;
+    height:340px;
+}
+.row2col4{
+    background-image:url('../Images/42-348x348.jpg');
+    background-size:cover;
+    height:340px;
 }
